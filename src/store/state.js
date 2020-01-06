@@ -3,5 +3,6 @@ export default {
     languageType:'en-US',
     superCoin:'',
     balances:'',
-    session:''
+    session:'',
+    uid:''
 }

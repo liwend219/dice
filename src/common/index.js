@@ -11,19 +11,25 @@ const fetch = axios.create({
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
     },
 });
-fetch.interceptors.request.use((config) => {
-    if(config.method === 'post') {
-        config.data = qs.stringify({
-            ...config.data
+fetch.interceptors.request.use((configs) => {
+    configs.url = configs.url+ `?version=${config.version}`
+    if(configs.method === 'post') {
+        // configs.data = qs.stringify({
+        //     ...configs.data
+        // })
+        let t = qs.stringify({
+            ...configs.data
         })
-    } 
-    return config;
+        let t1 = t + `&version=${config.version}`
+        configs.data = t1
+    }
+    return configs;
 },(error) =>{
     return Promise.reject(error);
 });
 
-fetch.interceptors.response.use((config) => {
-    return config.data
+fetch.interceptors.response.use((configs) => {
+    return configs.data
 },(error) =>{
     return Promise.reject(error);
 });

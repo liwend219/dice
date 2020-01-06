@@ -21,7 +21,7 @@ export default function () {
 		_onmessage (msg) {
 			Socket.onmessage && Socket.onmessage(msg.data)
             console.log(msg.data)
-            this._emit('message',JSON.parse(msg.data))
+            // this._emit('message',JSON.parse(msg.data))
 		},
 		onopen () {
             // this._emit('open')

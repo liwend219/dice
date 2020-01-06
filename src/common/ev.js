@@ -1,5 +1,6 @@
 import dev from './dev'
 import prod from './prod'
 export default {
-    ...dev
+    ...prod,
+    version:'1.0.3'
 }

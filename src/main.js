@@ -6,7 +6,9 @@ import router from './router'
 import ElementUI from 'element-ui';
 import {store} from './store'
 import 'element-ui/lib/theme-chalk/index.css';
+import plugin from './plugin/index'
 Vue.use(ElementUI);
+Vue.use(plugin)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

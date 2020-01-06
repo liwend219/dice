@@ -88,6 +88,7 @@ export default {
         "throwDiceTitle": "掷骰子",
         "createRoomSucc": "创建房间成功",
         "canNotLess": "不能低于最少投注值",
+        "canNotMax":"不能大于最高投注值",
         "dropValue": "投注金额",
         "oneDropValue":"单次投注金额",
         "villageNumMoreOver0": "坐庄金额必须大于0",
@@ -145,6 +146,7 @@ export default {
         "number":"第",
         "timeCount":"次",
         "totalCountProfit":"累计盈利",
+        "bet":'投注',
 
         "EstimateBonus":"预计获得奖金",
         "betsAutomatic":"自动下注计数",
@@ -155,8 +157,10 @@ export default {
         "enterBetAml":"请输入下注筹码",
         "enterStopWin":"请输入止盈金额",
         "enterStopLost":"请输入止损金额",
+        "unknown error":"未知错误",
         
-        "manual":"手动投注"
+        "manual":"手动投注",
+        "beting":"投注中"
     },
     "en-US":{
         "login_failed": "login failed",
@@ -196,9 +200,10 @@ export default {
         "lessNumWin":"User wins when the value is less than",
         "WinningRate":"Winning Rate",
         "oneDropValue":"Value of Single Bet",
-        "enterBetAml":"Please enter the number of tokens for betting placement",
-        "enterStopWin":"Please enter your Stop-Gain Value",
-        "enterStopLost":"Please enter your Stop-Loss Value",
+        "enterBetAml":"Enter the number of tokens for betting placement",
+        "enterStopWin":"Enter your Stop-Gain Value",
+        "enterStopLost":"Enter your Stop-Loss Value",
+        "unknown error":"unknown error",
 
         "manual":"MANUAL",
         "autoThrow":"AUTO",
@@ -207,6 +212,16 @@ export default {
         "gamePageRecord_1": "ALL BET",
         "time":"time",
         "points":"points",
-        "profit":"profit"
+        "profit":"profit",
+        "stake":"stake",
+        "Odds":"Odds",
+        "clientSeed": "Client Seed",
+        "serverSeed": "Server Seed",
+        "available": "available",
+        "inputLegalAmount": "Enter legal quantity",
+        "beting":"In progress",
+        "bet":'BETTING',
+        "canNotLess": "Cannot be lower than the minimum bet value",
+        "canNotMax":"Cannot be greater than the maximum bet value"
     }
 }

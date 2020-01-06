@@ -14,5 +14,8 @@ export default {
     },
     setSession(state,v){
         state.session = v
+    },
+    setUid(state,v){
+        state.uid = v
     }
 }

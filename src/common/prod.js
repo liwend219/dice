@@ -1,7 +1,7 @@
 const config = {
-    http:'https://wnsballapi.hotbit.io',
-    ws:'wss://wnsballapi.hotbit.io/websocket',
-    assetsWS:'wss://httpwsapi.hotbit.pro/websocket'
+    http:'https://wnsdiceapi.hotbit.io',
+    ws:'wss://wnsdiceapi.hotbit.io/websocket',
+    assetsWS:'wss://httpwsapi.hotbit.io/websocket'
 }
 
 export default config
